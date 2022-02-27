@@ -46,7 +46,7 @@ RUN set -ex && \
       sudo supervisor logrotate locales curl \
       nginx openssh-server postgresql-client-12 postgresql-contrib-12 redis-tools \
       git-core python3 python3-docutils nodejs yarn gettext-base graphicsmagick \
-      libpq5 zlib1g libyaml-0-2 libssl1.1 \
+      libpq5 zlib1g libyaml-0-2 libssl1.1 libssl-dev \
       libgdbm6 libreadline8 libncurses5 libffi7 \
       libxml2 libxslt1.1 libcurl4 libicu66 libre2-dev tzdata unzip libimage-exiftool-perl \
       libmagic1 \
