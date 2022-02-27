@@ -107,7 +107,7 @@ cd ${GITLAB_SHELL_INSTALL_DIR}
 exec_as_git cp -a config.yml.example config.yml
 
 echo "Installing newer version of bundler"
-exec_as_git gem install bundler:2.3.6
+gem install bundler:2.3.6
 
 echo "Compiling gitlab-shell golang executables..."
 exec_as_git bundle config set --local deployment 'true'
